@@ -5,7 +5,8 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
-
+require 'json'
+package = JSON.parse(File.read(File.join(__dir__, './', 'package.json')))
 Pod::Spec.new do |spec|
   spec.name         = "NetStatus"
   spec.version      = "1.0.0"
