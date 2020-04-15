@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "AnandDusi" => "Anand.Dusi@cashe.co.in" }
   spec.platform     = :ios, "9.0"
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
-  spec.source_files  = "NetStatus/Source/*.{swift}"
+   spec.source       = { :git => "https://github.com/dusianandakumar/IOSPods.git", :tag => "1.0.0" }
+  spec.source_files  = "NetStatus/NetStatus/Source/*.{swift}"
 end
