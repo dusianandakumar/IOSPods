@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "AnandDusi" => "Anand.Dusi@cashe.co.in" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/dusianandakumar/IOSPods.git", :tag => "1.0.0" }
-  spec.source_files  = "NetStatus/NetStatus/Source/*.{swift}"
+  spec.source_files  = "NetStatus/*.{swift}"
   s.requires_arc  = true
   s.dependency      'React'
 end
